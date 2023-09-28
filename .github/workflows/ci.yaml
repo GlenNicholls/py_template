@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  APP_NAME: parity_scripter
+  APP_NAME: todo
   ENTRYPOINT: main
 
 jobs:
