@@ -7,16 +7,16 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "TODO"
+name = "todo"
 requires-python = ">=3.9"
 dynamic = ["version"]
 dependencies = ["pyraid @ git+https://github.com/GlenNicholls/pyraid.git@main"]
 
 [project.scripts]
-parity_scripter = "TODO:main"
+parity_scripter = "todo:main"
 
 [tool.setuptools.dynamic]
-version = {attr = "TODO.__version__"}
+version = {attr = "todo.__version__"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
